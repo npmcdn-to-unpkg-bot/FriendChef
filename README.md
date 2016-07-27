@@ -1,6 +1,4 @@
-# Project Name
-
-> FriendChef
+# FriendChef
 
 ## Team
   
