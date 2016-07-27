@@ -1,4 +1,4 @@
-export default Menu = React.createClass({
+var Menu = React.createClass({
   render: function() {
     return (
       <div>
@@ -14,3 +14,5 @@ export default Menu = React.createClass({
     );
   } 
 });
+
+export default Menu;

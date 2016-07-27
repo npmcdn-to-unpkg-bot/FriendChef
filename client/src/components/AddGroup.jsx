@@ -1,4 +1,4 @@
-export default AddGroup = React.createClass({
+var AddGroup = React.createClass({
   handleSubmit: function(event) {
     event.preventDefault();
 
@@ -41,3 +41,5 @@ export default AddGroup = React.createClass({
     );
   }
 });
+
+export default AddGroup;

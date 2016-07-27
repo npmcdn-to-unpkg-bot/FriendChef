@@ -1,4 +1,4 @@
-export default Diet = React.createClass({
+var Diet = React.createClass({
   render: function() {
     return (
       <div>
@@ -7,3 +7,5 @@ export default Diet = React.createClass({
     );
   }
 });
+
+export default Diet;

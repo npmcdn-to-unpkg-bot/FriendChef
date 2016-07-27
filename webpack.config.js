@@ -1,10 +1,9 @@
 var webpack = require('webpack');
-var path = require('path');
 
-var BUILD_DIR = path.resolve(__dirname, 'client/compiled');
-var APP_DIR = path.resolve(__dirname, 'client/src');
+var BUILD_DIR = __dirname +  '/client/compiled';
+var APP_DIR = __dirname + '/client/src';
 
-var config = {
+module.exports = {
   entry: APP_DIR + '/index.jsx',
   output: {
     path: BUILD_DIR,
@@ -25,5 +24,3 @@ var config = {
     ]
   }
 };
-
-module.exports = config;

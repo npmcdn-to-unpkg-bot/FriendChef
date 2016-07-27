@@ -9,7 +9,7 @@
     "babel": "babel ./client/. --out-dir ./client/compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline --watch",
     "start": "nodemon server/server.js",
     "build:dev": "webpack --config -d --watch",
-    "build:prod": "webpack --config ./webpack.config.js"    
+    "build:prod": "webpack --config ./webpack.config.js"
   },
   "author": "",
   "license": "ISC",

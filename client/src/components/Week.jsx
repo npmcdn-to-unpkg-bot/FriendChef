@@ -1,4 +1,4 @@
-export default Week = React.createClass({
+var Week = React.createClass({
   saveData: function(event) {
     event.preventDefault();
 
@@ -82,3 +82,5 @@ export default Week = React.createClass({
     );
   }
 });
+
+export default Week;

@@ -1,4 +1,4 @@
-export default Login = React.createClass({
+var Login = React.createClass({
   authenticate: function(event) {
     event.preventDefault();
 
@@ -48,3 +48,5 @@ export default Login = React.createClass({
     );
   }
 });
+
+export default Login;

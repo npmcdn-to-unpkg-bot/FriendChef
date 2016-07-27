@@ -14,7 +14,7 @@ var GroupLink = React.createClass({
   }
 });
 
-export default Groups = React.createClass({
+var Groups = React.createClass({
   getInitialState: function() {
     return {groups: []};
   },
@@ -58,3 +58,5 @@ export default Groups = React.createClass({
     );
   }
 });
+
+export default Groups;

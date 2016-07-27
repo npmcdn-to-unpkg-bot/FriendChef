@@ -1,4 +1,4 @@
-export default Main = React.createClass({
+var Main = React.createClass({
   getInitialState: function() {
     return {menu: ''};
   },
@@ -55,3 +55,5 @@ export default Main = React.createClass({
     );
   }
 });
+
+export default Main;

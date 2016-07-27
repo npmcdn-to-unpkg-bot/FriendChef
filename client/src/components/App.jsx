@@ -1,4 +1,6 @@
-export default App = React.createClass({
+import { Link } from 'react-router';
+
+var App = React.createClass({
   render: function() {
     return (
       <div>
@@ -17,3 +19,5 @@ export default App = React.createClass({
     );
   }
 });
+
+export default App;

@@ -1,4 +1,4 @@
-export default Signup = React.createClass({
+var Signup = React.createClass({
   handleSubmit: function(event) {
     event.preventDefault();
 
@@ -64,3 +64,5 @@ export default Signup = React.createClass({
     );
   }
 });
+
+export default Signup;
