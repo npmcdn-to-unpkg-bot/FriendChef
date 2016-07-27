@@ -4,8 +4,8 @@
   "description": "Meal planner with friends",
   "main": "server/server.js",
   "scripts": {
-    "init": "mysql -u root < server/schema.sql",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "initDB": "sh server/db/initdb.sh",    
+    "test": "echo \"Error: no test specified\"",
     "babel": "babel ./client/. --out-dir ./client/compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline --watch",
     "start": "nodemon server/server.js",
     "build:dev": "webpack --config -d --watch",

@@ -1,3 +1,6 @@
+#Uncomment the line below to delete database
+#DROP DATABASE friends
+
 CREATE DATABASE friends;
 USE friends;
 
