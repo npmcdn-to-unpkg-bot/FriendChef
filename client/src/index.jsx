@@ -1,13 +1,6 @@
-var Router = ReactRouter.Router;
-var Route = ReactRouter.Route;
-var Link = ReactRouter.Link;
-var IndexRoute = ReactRouter.IndexRoute;
+import { Router, Route, Link, IndexRoute, History, browserHistory } from 'react-router';
 
-var History = ReactRouter.History;
-var BrowserHistory = ReactRouter.browserHistory;
-
-
-import { App, AddGroup, Diet, Groups, Login, Main, Menu, Signup, Week } from './components/Components.jsx';
+import { App, AddGroup, Diet, Groups, Login, Main, Menu, Signup, Week } from './Components.jsx';
 
 console.log('loaded app');
 
@@ -39,7 +32,7 @@ var Error = React.createClass({
 });
 
 var routes = (
-  <Router history={BrowserHistory}>
+  <Router history={browserHistory}>
     <Route path='/' component={App}>
       <IndexRoute component={Base}/>
       <Route path='login' component={Login}/>
