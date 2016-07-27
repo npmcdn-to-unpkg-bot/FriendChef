@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel ./client/. --out-dir ./client/compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline --watch",
     "start": "nodemon server/server.js",
-    "web": "./node_modules/.bin/webpack -d --watch"
+    "build:dev": "webpack --config -d --watch",
+    "build:prod": "webpack --config ./webpack.config.js"    
   },
   "author": "",
   "license": "ISC",
